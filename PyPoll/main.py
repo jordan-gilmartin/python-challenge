@@ -3,7 +3,7 @@ import os
 import csv
 
 #File location
-csvpath = os.path.join('election_data.csv')
+csvpath = os.path.join('Resources/election_data.csv')
 
 with open(csvpath, newline='') as csvfile:
     csvreader = csv.reader(csvfile, delimiter=',')
@@ -75,7 +75,7 @@ with open(csvpath, newline='') as csvfile:
 
 
     # Output file
-    output_file = os.path.join("python-challenge", "PyBank", "Election_Results.txt")
+    output_file = os.path.join('Election_Results.txt')
 
     with open(output_file,"w",) as datafile:
     

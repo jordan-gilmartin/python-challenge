@@ -3,7 +3,7 @@ import os
 import csv
 
 # File location
-budget_csv = os.path.join('budget_data.csv')
+budget_csv = os.path.join('Resources/budget_data.csv')
 
 
 # Create lists for the variables
